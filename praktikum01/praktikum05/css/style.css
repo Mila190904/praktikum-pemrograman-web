@@ -1,0 +1,197 @@
+/* praktikum 5.1 */
+body {
+    border: 2px solid blue;
+    margin: 130px;
+}
+
+div.awal{
+    background-color: lightblue;
+    border-bottom: 2px solid black;
+}
+
+.nama {
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+img#kiri{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+img#kanan{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+img#ulang{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+#search {
+    width: 840px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+div.satu{
+    border: 2px solid black;
+    background-color: goldenrod;
+    width: 180px;
+    height: 800px;
+    margin: 50px 30px 50px 30px;
+}
+
+div.dua{
+    border: 2px solid black;
+    background-color: orangered;
+    width: 180px;
+    height: 800px;
+    margin: 50px 30px 50px 30px;
+}
+
+div.tiga{
+    border: 2px solid black;
+    background-color: rgb(79, 163, 116);
+    width: 180px;
+    height: 800px;
+    margin: 50px 30px 50px 30px;
+}
+
+div.empat{
+    border: 2px solid black;
+    background-color: rgb(0, 191, 255);
+    width: 180px;
+    height: 800px;
+    margin: 50px 30px 50px 30px;
+}
+
+
+
+
+/* praktikum 5.2 */
+body.box2{
+    border: 2px solid black;
+    margin: 130px;
+}
+
+div.atas{
+    background-color: lightblue;
+    border-bottom: 2px solid black;
+}
+
+p#text2{
+    text-align: center;
+}
+
+div#ijo{
+    border: 2px solid black;
+    background-color: rgb(79, 163, 116);
+    width: 950px;
+    height: 100px;
+    margin: 20px;
+}
+
+div#kuning{
+    border: 2px solid black;
+    background-color: goldenrod;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+div#orange{
+    border: 2px solid black;
+    background-color: orangered;
+    width: 750px;
+    height: 150px;
+    margin: 20px;
+}
+
+div#kuning2{
+    border: 2px solid black;
+    background-color: goldenrod;
+    width: 150px;
+    height: 130px;
+    margin: 20px;
+}
+
+div#biru{
+    border: 2px solid black;
+    background-color: rgb(0, 191, 255);
+    width: 750px;
+    height: 130px;
+    margin: 20px;
+}
+
+
+
+/* praktikum 5.3 */
+body.box3{
+    border: 2px solid black;
+    margin: 130px;
+}
+
+div.pertama{
+    background-color: lightblue;
+    border-bottom: 2px solid ;
+}
+
+p.text2{
+    text-align: center;
+}
+
+div.t1{
+    border: 2px solid black;
+    background-color: goldenrod;
+    width: 180px;
+    height: 70px;
+    margin: 20px;
+}
+
+div.t2{
+    border: 2px solid black;
+    background-color: orangered;
+    width: 710px;
+    height: 70px;
+    margin: 20px;
+}
+
+div.t3{
+    border: 2px solid black;
+    background-color: rgb(79, 163, 116);
+    width: 180px;
+    height: 500px;
+    margin: 20px;
+}
+
+div.t4{
+    border: 2px solid black;
+    background-color: darkgray;
+    width: 480px;
+    height: 500px;
+    margin: 20px;
+}
+
+div.t5{
+    border: 2px solid black;
+    background-color: rgb(0, 191, 255);
+    width: 180px;
+    height: 500px;
+    margin: 20px;
+}
+
+div.t6{
+    border: 2px solid black;
+    background-color: royalblue;
+    width: 940px;
+    height: 50px;
+    margin: 20px;
+}
+
+
