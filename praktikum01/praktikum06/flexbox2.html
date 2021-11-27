@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 6.2 | Flexbox</title>
+    <style>
+        .container {
+            display: flex;
+            margin: 0;
+            font-size: 200%;
+        }
+        nav {
+            background: pink;
+            height: 84vh;
+            width: 70vh;
+            padding: 20px;
+        }
+        header, footer {
+            background: khaki;
+            width: 190vh;
+            height: 10vh;
+            padding: 20px;
+        }
+        article {
+            width: 120vh;
+            height: 50vh;
+            padding: 20px;
+        }
+        aside {
+            background: turquoise;
+            width: 63vh;
+            height: 51vh;
+            padding: 20px;
+        }
+        .isi {
+            display: flex;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>Nav</nav>
+        <div>
+            <header>Header</header>
+            <div class="isi">
+                <article><h4>Article</h4></article>
+                <aside>Aside</aside>
+            </div>  
+            <footer>Footer</footer>
+        </div>
+    </div>
+</body>
+</html>

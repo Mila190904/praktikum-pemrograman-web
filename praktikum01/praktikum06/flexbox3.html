@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 6.3 | Flexbox</title>
+    <style>
+        body {
+            background-color: pink;
+            text-align: center;
+        }
+        .container {
+            margin: 2%;
+            font-size: 200%;
+            color: white;
+        }
+        .box1 {
+            margin: 2%;
+            display: flex;
+        }
+        header, footer {
+            background: powderblue;
+            width: 200vh;
+            height: 15vh;
+            position: relative;
+            padding-top: 5vh;
+        }
+        .box2 {
+            margin: 2%;
+            display: flex;
+        }
+        aside {
+            background: cornflowerblue;
+            width: 50vh ;
+            height: 100vh;
+            margin-right: 2%;
+        }
+        article {
+            background: indianred;
+            width: 160vh;
+            height: 100vh;
+        }
+        .kotak {
+            position: relative;
+            top: 3vh;
+        }
+        .foto {
+            height: 200px;
+            width: 260px;
+            margin: 1vh;
+        }
+        .box3 {
+            margin: 2%;
+        }
+        .bb{
+            margin-top: 45vh;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            <header><b>Header</b></header>
+        </div>
+        <div class="box2">
+            <aside><p class="bb"><b>Aside</b></p></aside>
+            <article>
+                <h4 class="bb">Article</h4>
+                <div class="kotak">
+                    <img class="foto" src="img/gunung.jpg" alt="pemandangan">
+                    <img class="foto" src="img/gunung2.jpg" alt="pemandangann">
+                    <img class="foto" src="img/gunung3.jpg" alt="pemandangannn">
+                </div>
+            </article>
+        </div>
+        <div class="box3">
+            <footer><b>Footer</b></footer>
+        </div>
+    </div>
+</body>
+</html>
