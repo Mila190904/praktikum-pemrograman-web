@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum Js | 7.2</title>
+    <style>
+        body {
+            background-color: lightblue;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        button {
+            background-color: orange;
+        }
+    </style>
+    <script>
+        function hitunglah() {
+            let $dollar = document.getElementById("dolar").value;
+            let $rupiah = $dollar * 14650;
+            let objrupiah = document.getElementById("rp");
+            objrupiah.value = $rupiah
+        }
+    </script>
+</head>
+<body>
+    <h2>Menghitung Kurs Rupiah</h2><br>
+        US$ : <input type="number" value="" id="dolar"><br><br>
+        <button onclick="hitunglah()">Hitung</button>
+        IDR : <input type="number" value="" id="rp">
+</body>
+</html>

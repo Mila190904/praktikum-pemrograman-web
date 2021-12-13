@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum Js | 7.1</title>
+    <style>
+        body {
+            background-color: lightblue;
+            padding: 10px;
+            padding-bottom: 40px;
+        }
+        h2 {
+            text-align: center;
+        }
+
+        button {
+            background-color: orange;
+        }
+        
+    </style>
+    <script>
+        function jumlahkan() {
+            const PHI = 3.14;
+            let jari = document.getElementById("no1").value;
+            console.log("jari-jari : " + jari);
+            let luas = PHI * jari * jari;
+            let kel = 2.0 * PHI * jari;
+            console.log(("luas : " + luas ));
+            console.log(("kel : " + kel ));
+            let area_hasil = document.getElementById("hasil");
+            area_hasil.innerHTML = "Luas : " + luas + "\nKeliling : " + kel;
+        }
+        
+    </script>
+</head>
+<body>
+    <h2>Menghitung Luas dan Keliling Lingkaran</h2><br>
+        Jari-Jari Lingkaran : <input type="number" value="" id="no1"><br><br>
+        <button onclick="jumlahkan()">Hitung</button>
+        <span id="hasil"></span>
+</body>
+</html>

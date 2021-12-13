@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum Js | 7.4</title>
+    <script>
+        function ditambah() {
+            var bil_1 = document.getElementById("no1").value;
+            var bil_2 = document.getElementById("no2").value;
+            var tambah = Number(bil_1) + Number(bil_2);
+            var tambahkan = document.getElementById("hasilnya");
+            tambahkan.innerHTML = tambah
+        }
+    </script>
+</head>
+<body>
+    <input type="number" id="no1">
+        <p>+</p>
+        <input type="number" id="no2"><br><br>
+        <button onclick="ditambah()">=</button>
+        <br>
+        <br>
+        <span id="hasilnya"></span>
+</body>
+</html>
